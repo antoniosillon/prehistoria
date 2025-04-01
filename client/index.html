@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentación de Comandos | Prehistoria de Minecraft</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <style>
+      @font-face {
+        font-family: 'MinecraftFont';
+        src: url('https://cdn.jsdelivr.net/gh/South-Paw/typeface-minecraft@master/font/minecraftia.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      
+      body {
+        background-color: #333333;
+        background-image: url('https://images.unsplash.com/photo-1579033385960-676bd6d98fac?auto=format&fit=crop&w=1920&h=1080&q=80');
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: overlay;
+        background-attachment: fixed;
+      }
+      
+      .minecraft-btn {
+        position: relative;
+        display: inline-block;
+        border: 2px solid #000;
+        padding: 6px 12px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #545454;
+        box-shadow: inset -2px -4px 0 rgba(0, 0, 0, 0.3), inset 2px 2px 0 rgba(255, 255, 255, 0.3);
+        transition: 0.1s;
+        cursor: pointer;
+      }
+      
+      .minecraft-btn:active {
+        box-shadow: inset 2px 4px 0 rgba(0, 0, 0, 0.3), inset -2px -2px 0 rgba(255, 255, 255, 0.3);
+      }
+      
+      .minecraft-btn.active {
+        background-color: #4A9C37;
+      }
+      
+      .shadow-minecraft {
+        box-shadow: inset -2px -4px 0 rgba(0, 0, 0, 0.2), inset 2px 2px 0 rgba(255, 255, 255, 0.2);
+      }
+      
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #333333;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #4A9C37;
+        border: 2px solid #000;
+      }
+      
+      /* Tailwind Classes Extension */
+      .font-minecraft {
+        font-family: 'MinecraftFont', monospace;
+      }
+      
+      .bg-minecraft-green {
+        background-color: #4A9C37;
+      }
+      
+      .bg-minecraft-brown {
+        background-color: #825432;
+      }
+      
+      .bg-minecraft-blue {
+        background-color: #3B8EC6;
+      }
+      
+      .bg-minecraft-sand {
+        background-color: #E0D7AD;
+      }
+      
+      .bg-minecraft-darkgray {
+        background-color: #333333;
+      }
+      
+      .bg-minecraft-gold {
+        background-color: #FFA500;
+      }
+
+      .bg-prehistoric {
+        background-color: #8B4513;
+      }
+      
+      .text-minecraft-green {
+        color: #4A9C37;
+      }
+      
+      .text-minecraft-brown {
+        color: #825432;
+      }
+
+      .text-prehistoric {
+        color: #8B4513;
+      }
+      
+      .text-minecraft-blue {
+        color: #3B8EC6;
+      }
+      
+      .text-minecraft-sand {
+        color: #E0D7AD;
+      }
+      
+      .text-minecraft-gold {
+        color: #FFA500;
+      }
+      
+      .border-minecraft-green {
+        border-color: #4A9C37;
+      }
+      
+      .border-minecraft-brown {
+        border-color: #825432;
+      }
+      
+      .border-l-3 {
+        border-left-width: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
